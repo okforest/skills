@@ -1,0 +1,19 @@
+{
+  "name": "okforest",
+  "owner": {
+    "name": "OKForest",
+    "url": "https://www.okforest.ai"
+  },
+  "metadata": {
+    "description": "Agent Skills for OKForest: writing and changing OKF knowledge trees with your AI assistant."
+  },
+  "plugins": [
+    {
+      "name": "okforest",
+      "description": "Write, review, and change OKF knowledge trees in OKForest: concepts, links, index and log files, settings, type schemas, and changes over OKForest's MCP tools.",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/okforest"]
+    }
+  ]
+}
